@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(#0A667D, #1A2A42, #641616);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+header{
+    place-content: center;
+    background-color: black;
+    width: auto;
+    height: auto;
+    border-radius: 3vw;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    height: 90%;
+    width: auto;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    margin: 20px 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 2vw;
+    place-content: center;
+    margin: 15px;
+}
+.card{
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.card h1{
+    font-size: 2vw;
+    text-align: center;
+    padding: 1.5vw;
+    margin: 3vw;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
+.card dl{
+    margin: 0 10px;
+    text-align: justify;
+}
+.card li{
+    margin: 3vw;
+}
+.image{
+    width: 40%;
+}
+.description{
+    width: 50%;
+    font-size: 1.5vw;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
